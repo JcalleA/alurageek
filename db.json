@@ -1,0 +1,131 @@
+{
+    "productos": [
+        {
+            "id": 1,
+            "categoria": "star wars",
+            "titulo": "Producto x",
+            "img": "/assets/unsplash_6FDXGY9J6y4.png",
+            "precio": 49.8
+        },
+        {
+            "id": 2,
+            "categoria": "star wars",
+            "titulo": "Producto x",
+            "img": "/assets/unsplash_epRFE_hBNjo.png",
+            "precio": 50
+        },
+        {
+            "id": 3,
+            "categoria": "star wars",
+            "titulo": "Producto x",
+            "img": "/assets/unsplash_KeGToDVN0l4.png",
+            "precio": 35
+        },
+        {
+            "id": 4,
+            "categoria": "star wars",
+            "titulo": "Producto x",
+            "img": "/assets/unsplash_4OHkK555s1A.png",
+            "precio": 40
+        },
+        {
+            "id": 5,
+            "categoria": "star wars",
+            "titulo": "Baby yoda",
+            "img": "/assets/unsplash_R8L1l9RN198.png",
+            "precio": 40
+        },
+        {
+            "id": 5,
+            "categoria": "star wars",
+            "titulo": "Darck",
+            "img": "/assets/unsplash_1VV1MRafd7A.png",
+            "precio": 40
+        },
+        {
+            "id": 6,
+            "categoria": "consolas",
+            "titulo": "Control x",
+            "img": "/assets/Skill.png",
+            "precio": 90
+        },
+        {
+            "id": 7,
+            "categoria": "consolas",
+            "titulo": "Xbox",
+            "img": "/assets/unsplash_Zjn4dT993-g.png",
+            "precio": 90
+        },
+        {
+            "id": 8,
+            "categoria": "consolas",
+            "titulo": "Mini Consola",
+            "img": "/assets/unsplash_k-xYhI3-gJM.png",
+            "precio": 90
+        }
+        ,
+        {
+            "id": 10,
+            "categoria": "consolas",
+            "titulo": "Play 5",
+            "img": "/assets/unsplash_caNzzoxls8Q.png",
+            "precio": 90
+        },
+        {
+            "id": 11,
+            "categoria": "consolas",
+            "titulo": "Atari",
+            "img": "/assets/unsplash_ZV7lnfyQLmA.png",
+            "precio": 90
+        },
+        {
+            "id": 12,
+            "categoria": "consolas",
+            "titulo": "Control x",
+            "img": "/assets/unsplash_wa5z9o9fgjw.png",
+            "precio": 90
+        },
+        {
+            "id": 13,
+            "categoria": "diversos",
+            "titulo": "Camisa Atari",
+            "img": "/assets/unsplash_fMP-oCze3AY.png",
+            "precio": 70
+        },
+        {
+            "id": 14,
+            "categoria": "diversos",
+            "titulo": "Camisa SNES",
+            "img": "/assets/unsplash_bUgaIaZysH0.png",
+            "precio": 65.5
+        },
+        {
+            "id": 15,
+            "categoria": "diversos",
+            "titulo": "Figura",
+            "img": "/assets/unsplash_sYVY_ZKwaxU.png",
+            "precio": 34
+        },
+        {
+            "id": 16,
+            "categoria": "diversos",
+            "titulo": "Accesorio Reloj",
+            "img": "/assets/unsplash_jMT6BrgBuXU.png",
+            "precio": 55.8
+        },
+        {
+            "id": 17,
+            "categoria": "diversos",
+            "titulo": "Pikachu",
+            "img": "/assets/unsplash_r27umXAelDc.png",
+            "precio": 55.8
+        },
+        {
+            "id": 18,
+            "categoria": "diversos",
+            "titulo": "Gafas VR",
+            "img": "/assets/unsplash_MxVkWPiJALs.png",
+            "precio": 90
+        }
+    ]
+}
