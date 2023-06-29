@@ -75,9 +75,11 @@ a {
 .producto img {
     width: 90%;
 }
-footer{
-  background-color: #EAF2FD;
+
+footer {
+    background-color: #EAF2FD;
 }
+
 .footer__form button {
     background-color: #2A7AE4;
     color: white;
@@ -85,13 +87,15 @@ footer{
     margin-top: 20px;
     margin-bottom: 30px;
 }
-.footer__politicas li{
-  margin-top: 10px;
-  margin-bottom: 30px;
+
+.footer__politicas li {
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
-.pie{
-  text-align: center;
-  background-color: white;
+
+.pie {
+    text-align: center;
+    background-color: white;
 
 }
 
@@ -104,9 +108,10 @@ footer{
         font-size: 2rem;
         order: 3;
     }
+
     .header__button button {
-    font-size: 1.7rem;
-}
+        font-size: 1.7rem;
+    }
 
     .banner h1 {
         font-size: 2rem;
@@ -150,7 +155,7 @@ footer{
         width: 100%;
         align-items: center;
         justify-content: space-around;
-        
+
     }
 
     .footer__logo {
@@ -178,8 +183,9 @@ footer{
         font-size: 1.8rem;
         width: 60%;
     }
-    .pie h1{
-      font-size: 2rem;
+
+    .pie h1 {
+        font-size: 2rem;
     }
 }
 
@@ -289,4 +295,25 @@ footer{
         display: block;
     }
 
+    footer {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        text-align: left;
+    }
+
+    .footer__logo {
+        width: 30%;
+        margin: 10px;
+    }
+
+    .footer__politicas {
+        width: 30%;
+        margin: 10px;
+    }
+
+    .footer__form {
+        width: 30%;
+        margin: 10px;
+    }
 }
