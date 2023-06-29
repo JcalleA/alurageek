@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,600;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/styles/index.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="header">
+                <div class="header__logo">
+                    <img src="/assets/Logo.svg" alt="">
+                </div>
+                <div class="header__busqueda">
+                    <input type="text" placeholder="que estas buscando?">
+                    <i class="fa fa-search"></i>
+                </div>
+                <div class="header__button">
+                    <a href="login.html"><button type="submit">Login</button></a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="destacados">
+        <div class="banner">
+            <h1>Junio Promocional</h1>
+            <h2>Productos seleccionados con 33% de descuento</h2>
+            <button>Ver Consolas</button>
+        </div>
+    </section>
+    <section class="productos">
+        <div class="categoria" >
+            <h1>Star Wars</h1>
+            <a href="">Ver mas <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
+        </div>
+        <div class="productos__container" id="star wars">
+
+        </div>
+    </section>
+    <section class="productos">
+        <div class="categoria">
+            <h1>Consolas</h1>
+            <a href="">Ver mas <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
+        </div>
+        <div class="productos__container"  id="consolas">
+
+        </div>
+    </section>
+    <section class="productos">
+        <div class="categoria" >
+            <h1>Diversos</h1>
+            <a href="">Ver mas <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
+        </div>
+        <div class="productos__container" id="diversos">
+        </div>
+    </section>
+    <footer>
+        <div class="footer__logo">
+            <img src="/assets/Logo.svg" alt="" >
+        </div>
+        <div class="footer__politicas">
+            <li><a href="">Quienes Somos</a></li>
+            <li><a href="">Politica De Privacidad</a></li>
+            <li><a href="">Programa De Fidelidad</a></li>
+            <li><a href="">Nuestras Tiendas</a></li>
+            <li><a href="">Quiero Ser Franquiciado</a></li>
+            <li><a href="">Anuncie Aqui</a></li>
+        </div>
+        <form class="footer__form">
+            <h1>Hable Con Nosotros</h1>
+            <div>
+                <input type="text" name="Nombre" placeholder="Nombre" required >
+            </div>
+            <div>
+                <textarea name="mensaje" id="" cols="20" rows="5" placeholder="Escriba Su Mensaje" required></textarea>
+            </div>
+            
+            <button>Enviar Mensaje</button>
+        </form>
+    </footer>
+    <div class="pie">
+        <h1>Desarrollado Por Jhonatan Calle</h1>
+        <h3>re®️ ™️ 2023</h3>
+    </div>
+</body>
+<script src="/controllers/index.js"></script>
+
+</html>
