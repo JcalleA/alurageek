@@ -11,6 +11,7 @@
         rel="stylesheet">
     <link rel="stylesheet" href="/styles/index.css">
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <link rel="stylesheet" href="/styles/login.css">
     <title>Document</title>
 </head>
 
@@ -25,45 +26,21 @@
                     <input type="text" placeholder="que estas buscando?">
                     <i class="fa fa-search"></i>
                 </div>
-                <div class="header__button">
-                    <a href="/screens/login.html"><button type="submit">Login</button></a>
-                </div>
             </div>
         </nav>
     </header>
-    <section class="destacados">
-        <div class="banner">
-            <h1>Junio Promocional</h1>
-            <h2>Productos seleccionados con 33% de descuento</h2>
-            <button>Ver Consolas</button>
-        </div>
-    </section>
-    <section class="productos">
-        <div class="categoria" >
-            <h1>Star Wars</h1>
-            <a href="">Ver mas <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
-        </div>
-        <div class="productos__container" id="star wars">
+   <form class="form__login">
+     <h1>Iniciar Sesion</h1>
+     <div>
+            <input type="email" name="email" required placeholder="Correo">
 
-        </div>
-    </section>
-    <section class="productos">
-        <div class="categoria">
-            <h1>Consolas</h1>
-            <a href="">Ver mas <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
-        </div>
-        <div class="productos__container"  id="consolas">
+     </div>
+     <div>
+            <input type="password" name="password" required placeholder="Contraseña">
 
-        </div>
-    </section>
-    <section class="productos">
-        <div class="categoria" >
-            <h1>Diversos</h1>
-            <a href="">Ver mas <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
-        </div>
-        <div class="productos__container" id="diversos">
-        </div>
-    </section>
+     </div>
+     <button >Login</button>
+   </form>
     <footer>
         <div class="footer__logo">
             <img src="/assets/Logo.svg" alt="" >
