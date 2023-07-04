@@ -30,6 +30,8 @@ body {
     padding: 10px;
     padding-left: 15px;
     padding-right: 15px;
+    margin-bottom: 30px;
+    margin-top: 20px;
 }
 
 .destacados {
@@ -77,6 +79,7 @@ a {
 }
 
 footer {
+    margin-top: 40px;
     background-color: #EAF2FD;
 }
 
@@ -164,12 +167,13 @@ footer {
 
     .footer__politicas {
         width: 100%;
-        font-size: 1.5rem;
         list-style: none;
     }
 
     .footer__form {
         text-align: left;
+        width: 80%;
+        margin: 0 auto;
     }
 
     .footer__form input,
@@ -256,7 +260,7 @@ footer {
     }
 
     .header__button button {
-        font-size: 3.5rem;
+        font-size: 3rem;
     }
 
     .banner h1 {
@@ -303,17 +307,19 @@ footer {
     }
 
     .footer__logo {
-        width: 30%;
+        width: 25%;
         margin: 10px;
     }
 
     .footer__politicas {
-        width: 30%;
+        width: 25%;
         margin: 10px;
+        font-size: 1.5;
+        text-align: center;
     }
 
     .footer__form {
-        width: 30%;
+        width: 40%;
         margin: 10px;
     }
 }
