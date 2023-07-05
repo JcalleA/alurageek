@@ -20,7 +20,10 @@
         <nav>
             <div class="header">
                 <div class="header__logo">
-                    <img src="/assets/Logo.svg" alt="">
+                    <a href="/screens/index.html">
+                                          <img  src="/assets/Logo.svg" alt="">
+
+                    </a>
                 </div>
                 <div class="header__busqueda">
                     <input type="text" placeholder="que estas buscando?">
@@ -32,25 +35,26 @@
             </div>
         </nav>
     </header>
-    <form action="" class="footer__form">
+    <form id="formu" class="footer__form">
         <div>
             <h1>Agregar Nuevo Producto</h1>
             <div>
-                <input type="url" id="url" name="url" placeholder="URL de la Imagen">
+                <input type="url" id="url" name="url" placeholder="URL de la Imagen"required>
             </div>
             <div>
-                <input type="text" name="categoria" placeholder="Categoria del producto">
+                <input type="text" name="categoria" id="categoria" placeholder="Categoria del producto"required>
             </div>
             <div>
-                <input type="text" name="nombre" placeholder="Nombre del producto">
+                <input type="text" name="nombre" id="nombre" placeholder="Nombre del producto"required>
             </div>
             <div>
-                <input type="number" name="precio" placeholder="Precio del producto">
+                <input type="number" name="precio" id="precio" placeholder="Precio del producto"required>
             </div>
             <div>
-                <input type="text" name="descripcion" placeholder="Descripcion producto">
+                <input type="text" name="descripcion" id="descripcion" placeholder="Descripcion producto" required>
             </div>
-            <button>Agregar</button>
+            <button type="submit">Agregar</button>
+
         </div>
 
     </form>
@@ -76,7 +80,7 @@
                 <textarea name="mensaje" id="" cols="20" rows="5" placeholder="Escriba Su Mensaje" required></textarea>
             </div>
 
-            <button>Enviar Mensaje</button>
+            <button >Enviar Mensaje</button>
         </form>
     </footer>
     <div class="pie">
@@ -84,6 +88,6 @@
         <h3>®️™️ 2023</h3>
     </div>
 </body>
-<script src="/controllers/index.js"></script>
+<script src="/controllers/agregarProducto.js"></script>
 
 </html>
