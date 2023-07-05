@@ -4,7 +4,7 @@ const formulario =document.getElementById("formu")
 formulario.addEventListener('submit',function(event){
   event.preventDefault();
   const formData=Object.fromEntries(new FormData(formulario))
-  alert(JSON.stringify(formData))
+  
   const options = {
   method: 'POST',
   headers: {

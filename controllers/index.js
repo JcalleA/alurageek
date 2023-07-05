@@ -16,9 +16,8 @@ const getProductos = () => {
             .then(data => {
                 data.forEach(element => {
                     output += `
-                
                     <div class="producto">
-                        <img src=${element.img} alt="" class="producto">
+                        <img src=${element.url} alt="" class="producto">
                         <h1 class="producto__titulo">${element.nombre}</h1>
                         <h2 class="producto_precio">USD $ ${element.precio}</h2>
                         <a href="">Ver Producto</a>
