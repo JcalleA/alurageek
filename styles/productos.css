@@ -11,7 +11,6 @@ button {
     width: 49%;
 }
 .btn__container{
-  font-size: 0.7rem;
   display: flex;
   width: 100%;
 }
@@ -37,6 +36,9 @@ button {
     .modal{
         font-size: 3rem;
     }
+    .btn__container{
+        font-size: 0.7rem;
+    }
 
 }
 
@@ -53,6 +55,9 @@ button {
     .categoria{
         display: flex;
     }
+    .btn__container{
+        font-size: 1.2rem;
+    }
 }
 
 @media screen and (min-width:1200px){
@@ -64,5 +69,8 @@ button {
     }
     button{
         font-size: 2rem;
+    }
+    .btn__container{
+        font-size: 1.5rem;
     }
 }

@@ -1,20 +1,20 @@
-const ver=(id)=>{
-    document.getElementById(id).style.display="block"
+const ver = (id) => {
+    document.getElementById(id).style.display = "block"
 
 }
-const cerrar=(id)=>{
-    document.getElementById(id).style.display="none"
+const cerrar = (id) => {
+    document.getElementById(id).style.display = "none"
 
 }
 
-let usd =new Intl.NumberFormat("en-US", {
+let usd = new Intl.NumberFormat("en-US", {
     style: "currency",
     currency: "USD",
 });
 
 const getProductos = () => {
 
-    
+
 
     const api = "https://back-api-nfs4.onrender.com/api/producto/getproductos"
 
@@ -59,7 +59,7 @@ const getProductos = () => {
                 </div>
             </div>
         </div>
-                       
+                
 
                     </div>
                     <div class="modal" id="${element._id}">
@@ -88,19 +88,23 @@ getProductos()
 
 
 const eliminar = (id) => {
-    console.log("va a eliminar el producto" + id)
-    const options = {
-        method: 'DELETE',
-        headers: {
-            'Content-Type': 'application/json'
+    if (window.confirm("va a eliminar el producto (" + id + ")  Por favor trate de eliminar un producto que usted miso halla registrado")) {
+        const options = {
+            method: 'DELETE',
+            headers: {
+                'Content-Type': 'application/json'
+            }
         }
+
+        fetch(`https://back-api-nfs4.onrender.com/api/producto/remove/${id}`, options)
+            .then(response => response.json())
+            .then(data => {
+                alert(data.mensaje);
+
+            }).catch(error => console.log(error))
+    } else {
+        alert("Gracias Por No Eliminar")
     }
 
-    fetch(`https://back-api-nfs4.onrender.com/api/producto/remove/${id}`,options)
-        .then(response => response.json())
-        .then(data => {
-            alert(data.mensaje);
-
-        }).catch(error => console.log(error))
 
 }
