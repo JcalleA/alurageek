@@ -54,8 +54,8 @@ body {
     text-align: right;
 }
 .modal__icono i{
-    margin: 60px;
-    font-size: 6rem;
+    margin: 45px;
+    font-size: 5rem;
 }
 .modal__container{
     display: flex;
@@ -74,8 +74,14 @@ body {
     text-align: left;
     width: 50%;
 }
-.modal__descripcion h1, h2, p{
-    margin-left: 70px;
+.modal__descripcion  h1{
+    margin-left: 40px;
+}
+.modal__descripcion  h2{
+    margin-left: 40px;
+}
+.modal__descripcion  p{
+    margin-left: 40px;
 }
 .destacados {
     color: white;
@@ -115,6 +121,23 @@ a {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
+}
+.producto{
+  box-shadow: 0px 0px 5px black;
+  margin-top: 40px;
+}
+.descripcion__container{
+  text-align: center;
+  background-color: lightblue;
+  white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.producto__titulo{
+  margin: 0;
+}
+.producto__precio{
+  margin: 0;
 }
 
 .producto img {
@@ -191,8 +214,7 @@ footer {
     }
 
     .producto {
-        width: 46%;
-        padding: 1.2%;
+        width: 40%;
     }
 
     .producto:nth-child(5) {

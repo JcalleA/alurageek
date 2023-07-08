@@ -7,51 +7,9 @@ button {
     margin-right: 50px;
     margin-left: 30px;
 }
-.modal{
-    display: none;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: white;
-    width: 100vw;
-    height: 100vh;
-    position: fixed;
-    
 
-}
 .btn__eliminar{
     background-color: red;
-}
-
-.modal__icono{
-    width: 100%;
-    font-size: 3rem;
-    color: black;
-    text-align: right;
-}
-.modal__icono i{
-    margin: 60px;
-    font-size: 6rem;
-}
-.modal__container{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-
-}
-.modal__img{
-    width: 50%;
-}
-.modal__img img{
-    width: 90%;
-}
-
-.modal__descripcion{
-    text-align: left;
-    width: 50%;
-}
-.modal__descripcion h1, h2, p{
-    margin-left: 70px;
 }
 
 @media screen and (min-width:360px){
