@@ -29,11 +29,37 @@ const getProductos = () => {
                 output +=
                     `
                     <div class="producto">
-                        <img src="${element.url}" alt="" class="producto">
+                    <div class"ing__container">
+                        <img onclick="ver('${element._id}')" src=${element.url} alt="">
+                        </div>
+                        <div class="descripcion__container">
                         <h1 class="producto__titulo">${element.nombre}</h1>
-                        <h2 class="producto_precio">USD $ ${usd.format(element.precio)}</h2>
-                        <button onclick="ver('${element._id}')">Ver Item</button>
+                        <h2 class="producto__precio">USD $ ${element.precio}</h2>
+                        
+                        </div>
+                        <div class="btn_container">
+ <button class="btn__ver" onclick="ver('${element._id}')">Ver</button>
             <button class="btn__eliminar" onclick="eliminar('${element._id}')">Eliminar</button>
+            
+                    </div>
+                    </div>
+
+          <div class="modal" id="${element._id}">
+            <div class="modal__icono">
+                <i onclick="cerrar('${element._id}')" class="fa fa-times" ></i>
+            </div>
+            <div class="modal__container">
+                <div class="modal__img">
+                    <img src="${element.url}" alt="">
+                </div>
+                <div class="modal__descripcion">
+                    <h1>${element.nombre}</h1>
+                    <h2>${usd.format(element.precio)}</h2>
+                    <p>${element.descripcion}</p>
+                </div>
+            </div>
+        </div>
+                       
 
                     </div>
                     <div class="modal" id="${element._id}">
