@@ -34,7 +34,8 @@ const getProductos = () => {
                         <img src=${element.url} alt="" class="producto">
                         <h1 class="producto__titulo">${element.nombre}</h1>
                         <h2 class="producto_precio">USD $ ${element.precio}</h2>
-                        <a href="">Ver</a>
+                        <a href="">Ver
+                        <button onclick='ver(${element._id})'>ver</button></a>
                     </div>
                     <div class="modal" id="${element._id}">
             <div class="modal__icono">
