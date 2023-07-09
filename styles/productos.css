@@ -6,71 +6,81 @@ button {
     margin-bottom: 6px;
 }
 
-.btn__eliminar{
+.btn__eliminar {
     background-color: red;
     width: 49%;
 }
-.btn__container{
-  display: flex;
-  width: 100%;
-}
-.btn__ver{
-  width: 49%;
+
+.btn__container {
+    display: flex;
+    width: 100%;
 }
 
-@media screen and (min-width:360px){
+.btn__ver {
+    width: 49%;
+}
 
-    .categoria h1{
+@media screen and (min-width:360px) {
+
+    .categoria h1 {
         font-size: 1.7rem;
     }
-    .categoria a{
+
+    .categoria a {
         font-size: 1.4rem;
     }
-    button{
+
+    button {
         font-size: 1.2rem;
     }
-    .categoria{
+
+    .categoria {
         display: block;
         text-align: left;
     }
-    .modal{
-        font-size: 3rem;
-    }
-    .btn__container{
+
+    .btn__container {
         font-size: 0.7rem;
     }
 
 }
 
-@media screen and (min-width:760px){
-    .categoria h1{
+@media screen and (min-width:760px) {
+    .categoria h1 {
         font-size: 2rem;
     }
-    .categoria a{
+
+    .categoria a {
         font-size: 1.7rem;
     }
-    button{
+
+    button {
         font-size: 1.9rem;
     }
-    .categoria{
+
+    .categoria {
         display: flex;
     }
-    .btn__container{
+
+    .btn__container {
         font-size: 1.2rem;
     }
 }
 
-@media screen and (min-width:1200px){
-    .categoria h1{
+@media screen and (min-width:1200px) {
+    .categoria h1 {
         font-size: 2.5rem;
     }
-    .categoria a{
+
+    .categoria a {
         font-size: 2rem;
     }
-    button{
+
+    button {
         font-size: 2rem;
     }
-    .btn__container{
+
+    .btn__container {
         font-size: 1.5rem;
     }
 }
