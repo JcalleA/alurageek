@@ -42,7 +42,11 @@ button {
         text-align: left;
     }
 
-    .btn__container {
+    
+    .btn__ver {
+        font-size: 0.7rem;
+    }
+    .btn__eliminar {
         font-size: 0.7rem;
     }
 
@@ -68,6 +72,12 @@ button {
     .btn__container {
         font-size: 1.2rem;
     }
+    .btn__ver {
+        font-size: 1.2rem;
+    }
+    .btn__eliminar {
+        font-size: 1.2rem;
+    }
 }
 
 @media screen and (min-width:1200px) {
@@ -83,7 +93,10 @@ button {
         font-size: 2rem;
     }
 
-    .btn__container {
+    .btn__ver {
+        font-size: 1.5rem;
+    }
+    .btn__eliminar {
         font-size: 1.5rem;
     }
 }
