@@ -19,6 +19,9 @@ button {
 .btn__ver {
     width: 49%;
 }
+.producto{
+    display: block;
+}
 
 @media screen and (min-width:360px) {
 
