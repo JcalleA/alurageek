@@ -95,13 +95,14 @@ const eliminar = (id) => {
                 'Content-Type': 'application/json'
             }
         }
+        alert("Solo los administradores pueden usar esta funcion")
 
-        fetch(`https://back-api-nfs4.onrender.com/api/producto/remove/${id}`, options)
-            .then(response => response.json())
-            .then(data => {
-                alert(data.mensaje);
+        // fetch(`https://back-api-nfs4.onrender.com/api/producto/remove/${id}`, options)
+        //     .then(response => response.json())
+        //     .then(data => {
+        //         alert(data.mensaje);
 
-            }).catch(error => console.log(error))
+        //     }).catch(error => console.log(error))
     } else {
         alert("Gracias Por No Eliminar")
     }
